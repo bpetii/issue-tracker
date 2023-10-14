@@ -1,6 +1,6 @@
 import React from 'react'
 import { Table} from '@radix-ui/themes'
-import {Link, IssueStatusBadge} from '../components/'
+import {Link, IssueStatusBadge} from '../../components'
 import prisma from '@/prisma/client'
 import { IssueActions } from './IssueActions'
 
