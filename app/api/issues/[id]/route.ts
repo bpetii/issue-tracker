@@ -14,7 +14,7 @@ export async function PATCH(
 
 		const body = await request.json()
 		const validation = pathIssueSchema.safeParse(body);
-		console.log(validation)
+		
 		if (!validation.success)
 			return NextResponse.json(validation.error.format(), {status: 400});
 
